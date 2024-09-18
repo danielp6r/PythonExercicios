@@ -1,2 +1,2 @@
 # PythonExercicios
- Listas de Exercício de Algoritmos em Python
+ Listas de Exercícios de Algoritmos em Python
