@@ -1,0 +1,7 @@
+valor_prato = float (input("Digite o valor do prato. " ))
+valor_suco = float (input("Digite o valor do suco. " ))
+valor_sobremesa = float (input("Digite o valor da sobremesa. " ))
+valor_refeicao = (valor_prato + valor_suco + valor_sobremesa)
+valor_taxa = (valor_refeicao * 0.1)
+valor_total = (valor_refeicao + valor_taxa)
+print (f'O valor total da conta é de R${valor_total:,.2f}.')

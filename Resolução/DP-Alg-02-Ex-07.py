@@ -1,0 +1,9 @@
+n = int(input("Digite um número inteiro de 3 algarismos. "))
+c = n // 100
+rc = n % 100
+d = rc // 10
+rd = rc % 10
+u = rd // 1
+print ("A centena é: ", c,d,u, sep="")
+print ("A dezena é: ", d,u, sep="")
+print ("A únidade é: ", u, sep="")
